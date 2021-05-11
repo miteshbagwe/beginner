@@ -1,0 +1,12 @@
+#Find max of two numbers
+
+first = input("Enter first number:")
+second = input("Enter second number:")
+
+def findMax(first,second):
+    if first > second:
+        return first
+    else:
+        return second
+
+print("Max of",first,"and",second,"is", findMax(first,second),".")
