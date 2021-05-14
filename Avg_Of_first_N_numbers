@@ -1,0 +1,12 @@
+# Average of first n numbers
+n = input("Input number:")
+n = int(n)
+sums = 0
+avg = 0
+
+for num in range(1,n+1):
+    sums += num
+    
+avg = sums/n
+print("Sum of first",n,"numbers:",sums)
+print("Avg of first",n,"numbers:",avg)
