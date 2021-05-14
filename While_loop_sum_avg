@@ -1,0 +1,13 @@
+# Python while loop to calculate sum and average
+n = 5
+total_number = n
+total = 0
+
+while(n >= 0):
+    total += n
+    n -= 1
+
+print("Input number:",total_number)
+print("Sum using while loop:",total)
+avg = total / total_number
+print("Avg using while loop:",avg)
