@@ -1,0 +1,3 @@
+# Calculate sum of range of numbers
+
+sum_range = print("Sum of range:", sum(range(1,5)))
