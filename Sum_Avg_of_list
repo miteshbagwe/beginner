@@ -1,0 +1,14 @@
+#Calculate sum and avg of given list in python
+
+L = [1,2,3,4,5]
+
+total_L = 0
+
+for element in L:
+    total_L += element
+    
+avg_L = total_L / len(L)
+
+print("List:",L)
+print("Total of list:",total_L)
+print("Avg of list:",avg_L)
