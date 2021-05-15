@@ -1,0 +1,11 @@
+# Find area of triangle
+
+a = float(input("Input first side:"))
+b = float(input("Input second side:"))
+c = float(input("Input third side:"))
+
+s = ( a + b + c ) / 2
+
+area = (s*(s-a)*(s-b)*(s-c))**0.5
+
+print("Area of triangle with sides",a,",",b,"and",c,"is",area)
