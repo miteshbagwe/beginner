@@ -1,0 +1,14 @@
+# Swapping of numbers
+
+# Step1: Input numbers
+first = int(input("Enter first number:"))
+second = int(input("Enter second number:"))
+
+# Step2: Swap
+temp = first
+first = second
+second = temp
+
+# Step3: Print values after swap
+print("Value of first after swap:",first)
+print("Value of second after swap:",second)
