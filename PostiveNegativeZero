@@ -1,0 +1,12 @@
+# Program to check whether a number if positive, negative or zero.
+
+# Step1: Input number
+num = int(input("Input number:"))
+
+# Step2: Compute type
+if num > 0:
+    print(num,"is a positive number.")
+elif num == 0:
+    print(num,"is a zero.")
+else:
+    print(num,"is a negative number.")
