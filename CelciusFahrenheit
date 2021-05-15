@@ -1,0 +1,10 @@
+# Program to convert celsius to fahrenheit
+
+# Step1: Input celcius
+c = float(input("Input celcius:"))
+
+# Step2: Calculate fahrenheit
+f = 1.8 * c + 32
+
+# Step3: Print values
+print("Calculated fahrenheit:",f)
