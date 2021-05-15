@@ -1,0 +1,4 @@
+#Python program to find square root
+num = 64
+sqr_num = num**0.5
+print("Sqaure root of",num,"is",sqr_num)
